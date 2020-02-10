@@ -123,6 +123,7 @@ boxedit_SRCS=                   \
 
 boxedit_LIBS=                   \
 	GTK                     \
+	m                       \
 
 cost_SRCS=                      \
 	cost_parse.tab.c        \
