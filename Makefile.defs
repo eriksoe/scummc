@@ -262,6 +262,7 @@ LIBS =                          \
 	FT                      \
 	SDL                     \
 	READLINE                \
+	m
 
 ## Source needing gtk
 GTK_SRCS =                      \
@@ -278,3 +279,5 @@ SDL_SRCS =                      \
 READLINE =                      \
 	scvm_dbg.c              \
 
+HAVE_m = yes
+m_LDFLAGS=-lm
